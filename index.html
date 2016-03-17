@@ -1,29 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Danil Varfolomeev Rezume</title>
-
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Danil's CV</title>
+  <meta name="author" content="Jake Rocheleau">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
 </head>
+
 <body>
+	<div id="w" itemscope itemtype="http://schema.org/Person">
+		<header class="clearfix">
+			<div id="info">			
+				<h1><span itemprop="name">Danil Varfolomeev</span></h1>
+				<h3><span itemprop="jobTitle">Consultant in <a href="http://www.apibest.com/" target="_blank">APIBEST</a> &amp; LOVE Python </span></h3>
+				<small itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				  <span itemprop="addressLocality">Kharkov</span>,
+				  <span itemprop="addressRegion">Ukraine</span>
 
-<div>
-<div><h1>Danil Varfolomeev</h1></div>
-<div><img src="danil.jpg" alt="фото"> </div>
-</div>
+				</small>
+				<small><span itemprop="email">d.varfolomeev@dicslab.com</span></small>
+				<small><a href="https://vk.com/carp3_diem" target="_blank">vk</a> &bull; <a href="https://www.facebook.com/profile.php?id=100011058997474&ref=bookmarks" target="_blank">fb</a></small>
+			</div>
+			
+			<div id="photo">
+				<img src="images/danil.jpg" alt="Jake Rocheleau resume photo avatar" itemprop="image" />
+			</div>
+		</header>
+		
+		<section id="profile">
+			<h2>My History &amp; Profile</h2>
+			<p itemprop="description">I'm a 18 years old student.</p>
+			
+			<p>After graduating 'Lugansk Lyceum of foreign languages' in summer 2014 I enter to KHPI.</p>
+		</section>
+		
+		<section id="skills" class="clearfix" itemscope itemtype="http://schema.org/ItemList">
+			<h2 itemprop="name">Skills</h2>
+			<section id="skills-left">
+				<!--<h4 itemprop="about">Development</h4>-->
+				<ul>
+					<li itemprop="itemListElement">English - Pre-Intermidiate</li>
+					<li itemprop="itemListElement">Want be cool Python dev</li>
+					<li itemprop="itemListElement">Adobe lightroom</li>
+					<li itemprop="itemListElement">Cycling</li>
+					<!--<li itemprop="itemListElement">Wordpress</li>-->
+					<!--<li itemprop="itemListElement">Pligg CMS</li>-->
+					<!--<li itemprop="itemListElement">Some Objective-C</li>-->
+				</ul>
+			</section>
+			
+			<!--<section id="skills-right">-->
+				<!--<h4 itemprop="about">Software</h4>-->
+				<!--<ul>-->
+					<!--<li itemprop="itemListElement">Adobe Photoshop</li>-->
+					<!--<li itemprop="itemListElement">Adobe Dreamweaver</li>-->
+					<!--<li itemprop="itemListElement">MS Office 2007-2010</li>-->
+					<!--<li itemprop="itemListElement">cPanel &amp; phpMyAdmin</li>-->
+					<!--<li itemprop="itemListElement">Xcode 4</li>-->
+				<!--</ul>-->
+			<!--</section>-->
+		</section>
+		
+		<section id="education">
+			<h2>Education</h2>
+			<p><span itemprop="alumniOf">Lugansk Lyceum of foreign languages</span> graduate of 2014.</p>
+			<p><span itemprop="alumniOf">National Technical University «Kharkov Polytechnical University»</span> enter in 2014.</p>
+		</section>
+		
+		<section id="experience">
+			<h2>Work Experience</h2>
+			<p>Consultant in APIBEST ~ January 2016 - Present</p>
+			<p>Translater in BridgeOfLove ~ April - Jule 2015</p>
+			<p>Translater in Charmdate ~ December 2016 - Present </p>
+			<p>Sales manager in CCC ~ Semtember 2015 - Present</p>
+		</section>
+<!--Footer-->
+				<footer class="center">
+					<hr>
+					<span>&copy; Danil Varfolomeev 2016</span>
+				</footer>
 
-<div>
-<div><h2>Contacts</h2> </div>
-    <div> <h4>mobile phone:</h4> +38095385-69-16 </div>
-    <div> <h4>Adress:</h4>Kharkov, Klochkovskaya 218a </div>
-    <div> <h4>Email:</h4>varfdaniil@gmail.com</div>
-    <div> <h4>Date of birthday:</h4>18.06.1997 </div>
-<div><h2>Education</h2> </div>
-    <div><h4>2011 - 2014</h4>Lugansk Lyceum of foreign languages</div>
-    <div><h4>2014 - now</h4>National Technical University «Kharkov Polytechnical University» </div>
-<div><h2> Work experince</h2></div>
-    <div><h4>9/2015 - now</h4> Consultant in APIBEST</div>
-</div>
-<div class="block7"> </div>
+	</div>
 </body>
 </html>
